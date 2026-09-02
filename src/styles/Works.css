@@ -1,0 +1,166 @@
+.works-container {
+  width: 100%;
+  min-height: 100vh;
+  padding: 10vh 0;
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.works-content {
+  width: 85%;
+  margin: 0 auto;
+  padding-top: 10vh;
+}
+
+.works-title {
+  font-size: 40px;
+  text-align: left;
+  font-family: "narmMC-Regular", sans-serif;
+  font-weight: normal;
+}
+
+.works-line {
+  width: 100%;
+  height: 1px;
+  background-color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.works-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 5%;
+  position: relative;
+  margin-bottom: 25vh;
+}
+
+.works-grid:last-child {
+  margin-bottom: 0;
+}
+
+.works-left {
+  width: 50%;
+  position: relative;
+}
+
+.works-sticky-content {
+  position: sticky;
+  top: 15vh;
+}
+
+.works-desc {
+  font-family: "Trebuchet MS", sans-serif;
+  font-weight: 100;
+  font-size: 13px;
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  margin-bottom: 20px;
+  width: 66%;
+}
+
+.works-date {
+  font-family: "narmMC-Regular", sans-serif;
+  font-size: 40px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.works-right {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.works-movie-title {
+  font-family: "narmMC-Regular", sans-serif;
+  font-size: 77px;
+  text-align: right;
+  font-weight: normal;
+  margin-bottom: 2%;
+}
+
+.works-images {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.works-images img {
+  width: 100%;
+  height: auto;
+  display: block;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1024px) {
+  .works-content {
+    width: 90%;
+  }
+
+  .works-title {
+    font-size: 35px;
+  }
+
+  .works-desc {
+    width: 90%;
+    font-size: 14px;
+  }
+
+  .works-movie-title {
+    font-size: 55px;
+  }
+
+  .works-date {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .works-content {
+    width: 90%;
+    padding-top: 5vh;
+  }
+
+  .works-title {
+    font-size: 28px;
+  }
+
+  .works-line {
+    margin-bottom: 25px;
+  }
+
+  .works-grid {
+    flex-direction: column-reverse;
+    gap: 30px;
+    margin-bottom: 15vh;
+  }
+
+  .works-left {
+    width: 100%;
+  }
+
+  .works-sticky-content {
+    position: relative;
+    top: 0;
+  }
+
+  .works-desc {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .works-date {
+    font-size: 25px;
+  }
+
+  .works-right {
+    width: 100%;
+  }
+
+  .works-movie-title {
+    font-size: 45px;
+    margin-bottom: 15px;
+  }
+}
