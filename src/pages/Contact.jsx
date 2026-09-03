@@ -28,8 +28,8 @@ const contactData = [
   },
   {
     id: 2,
-    text: "assilsadikar2004",
-    href: "https://instagram.com/assilsadikar2004",
+    text: "art.by.sadik",
+    href: "https://instagram.com/art.by.sadik",
     icon: (
       <svg
         width="24"
